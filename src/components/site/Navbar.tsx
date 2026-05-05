@@ -58,7 +58,7 @@ export const Navbar = () => {
               </a>
             ))}
             <a href="#contact" onClick={() => setOpen(false)} className="btn-gold px-6 py-3 text-xs uppercase tracking-[0.2em] text-center mt-2">
-              Book Fittings
+              Book Fittingss
             </a>
           </nav>
         </div>
