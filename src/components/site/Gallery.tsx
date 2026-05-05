@@ -5,11 +5,11 @@ import g4 from "@/assets/gallery-4.jpg";
 import sherwani from "@/assets/sherwani.jpg";
 import s1 from "@/assets/S1.jpg";
 import s2 from "@/assets/s2.jpg";
-import s3 from "@/assets/s2.jpg";
-import s4 from "@/assets/s2.jpg";
-import s5 from "@/assets/s2.jpg";
-import s6 from "@/assets/s2.jpg";
-import s7 from "@/assets/s2.jpg";
+import s3 from "@/assets/s3.jpg";
+import s4 from "@/assets/s4.jpg";
+import s5 from "@/assets/s5.jpg";
+import s6 from "@/assets/s6.jpg";
+import s7 from "@/assets/s7.jpg";
 
 const items = [
   { src: g3, alt: "Bride and groom couple", span: "md:col-span-2 md:row-span-2" },
