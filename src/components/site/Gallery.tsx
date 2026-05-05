@@ -21,7 +21,7 @@ export const Gallery = () => {
         <div className="text-center max-w-2xl mx-auto animate-fade-in">
           <span className="divider-gold text-[11px] uppercase tracking-[0.4em]">Gallery</span>
           <h2 className="mt-6 font-serif text-4xl md:text-5xl">
-            Moments in <span className="text-gold italic">Couture</span>
+            Moments in <span className="text-gold italic">Couturees</span>
           </h2>
           <p className="mt-4 text-muted-foreground">A glimpse into our atelier and the silhouettes we craft.</p>
         </div>
