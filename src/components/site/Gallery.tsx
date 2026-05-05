@@ -3,15 +3,17 @@ import g2 from "@/assets/gallery-2.jpg";
 import g3 from "@/assets/gallery-3.jpg";
 import g4 from "@/assets/gallery-4.jpg";
 import sherwani from "@/assets/sherwani.jpg";
-import bridal from "@/assets/bridal.jpg";
+import s1 from "@/assets/S1.jpg";
+!import s2 from "@/assets/s2.jpg"
 
 const items = [
   { src: g3, alt: "Bride and groom couple", span: "md:col-span-2 md:row-span-2" },
   { src: sherwani, alt: "Ivory sherwani close-up", span: "" },
   { src: g1, alt: "Gold zardozi embroidery", span: "" },
   { src: g2, alt: "Groom side portrait in black", span: "" },
-  { src: bridal, alt: "Bridal lehenga flatlay", span: "" },
+  { src: s1, alt: "mens sherwani", span: "" },
   { src: g4, alt: "Hand stitching gold thread", span: "md:col-span-2" },
+  { src: S2, alt: "Hand stitching gold thread", span: "md:col-span-2" },
 ];
 
 export const Gallery = () => {
