@@ -1,4 +1,3 @@
-import gallery1 from "@/assets/Logo.jpg";
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 
@@ -29,8 +28,8 @@ export const Navbar = () => {
     >
       <div className="container flex items-center justify-between">
         <a href="#home" className="flex flex-col leading-none">
-          <span className="font-serif text-2xl text-gold tracking-wide">Tariq Road</span>
-          <span className="text-[10px] tracking-[0.3em] text-muted-foreground uppercase">Couture</span>
+          <span className="font-serif text-2xl text-gold tracking-wide">Zubair Collection</span>
+          {/* <span className="text-[10px] tracking-[0.3em] text-muted-foreground uppercase">Couture</span> */}
         </a>
 
         <nav className="hidden lg:flex items-center gap-10">
