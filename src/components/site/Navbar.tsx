@@ -1,3 +1,4 @@
+import gallery1 from "@/assets/Logo.jpg";
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 
