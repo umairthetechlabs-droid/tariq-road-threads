@@ -4,7 +4,8 @@ import g3 from "@/assets/gallery-3.jpg";
 import g4 from "@/assets/gallery-4.jpg";
 import sherwani from "@/assets/sherwani.jpg";
 import s1 from "@/assets/S1.jpg";
-!import s2 from "@/assets/s2.jpg"
+import s2 from "@/assets/s2.jpg";
+
 
 const items = [
   { src: g3, alt: "Bride and groom couple", span: "md:col-span-2 md:row-span-2" },
@@ -13,7 +14,7 @@ const items = [
   { src: g2, alt: "Groom side portrait in black", span: "" },
   { src: s1, alt: "mens sherwani", span: "" },
   { src: g4, alt: "Hand stitching gold thread", span: "md:col-span-2" },
-  { src: S2, alt: "Hand stitching gold thread", span: "md:col-span-2" },
+  { src: s2, alt: "Hand stitching gold thread", span: "md:col-span-2" },
 ];
 
 export const Gallery = () => {
