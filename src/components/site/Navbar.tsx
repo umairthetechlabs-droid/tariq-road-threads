@@ -28,8 +28,7 @@ export const Navbar = () => {
     >
       <div className="container flex items-center justify-between">
         <a href="#home" className="flex flex-col leading-none">
-          <span className="font-serif text-2xl text-gold tracking-wide">Tariq Road</span>
-          <span className="text-[10px] tracking-[0.3em] text-muted-foreground uppercase">Couture</span>
+          <img src="/logo.png" alt="Tariq Road Couture" className="h-10 w-auto" />
         </a>
 
         <nav className="hidden lg:flex items-center gap-10">
