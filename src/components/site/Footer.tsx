@@ -6,8 +6,8 @@ export const Footer = () => {
       <div className="container grid md:grid-cols-4 gap-12">
         <div className="md:col-span-2">
           <div className="flex flex-col leading-none">
-            <span className="font-serif text-3xl text-gold">Tariq Road</span>
-            <span className="text-[10px] tracking-[0.3em] text-muted-foreground uppercase">Couture</span>
+            <span className="font-serif text-3xl text-gold">Zubair collection</span>
+            {/* <span className="text-[10px] tracking-[0.3em] text-muted-foreground uppercase">Couture</span> */}
           </div>
           <p className="mt-5 text-sm text-muted-foreground max-w-sm leading-relaxed">
             A house of timeless menswear and bridal couture, crafted on Tariq Road, Karachi since 1998.
@@ -16,7 +16,7 @@ export const Footer = () => {
             {[
               { Icon: Instagram, href: "#" },
               { Icon: Facebook, href: "#" },
-              { Icon: MessageCircle, href: "https://wa.me/923001234567" },
+              { Icon: MessageCircle, href: "https://wa.me/3462688258" },
             ].map(({ Icon, href }, i) => (
               <a key={i} href={href} target="_blank" rel="noreferrer" className="w-10 h-10 flex items-center justify-center border border-border hover:border-primary hover:text-primary transition-colors">
                 <Icon size={16} />
@@ -46,7 +46,7 @@ export const Footer = () => {
             <li>Mon – Sat · 11am – 10pm</li>
             <li>Sunday · 2pm – 9pm</li>
             <li className="pt-3 text-foreground">Tariq Road, Karachi</li>
-            <li>+92 300 1234567</li>
+            <li>+92 346 2688258</li>
           </ul>
         </div>
       </div>

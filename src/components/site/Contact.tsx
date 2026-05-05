@@ -63,10 +63,10 @@ export const Contact = () => {
         <div className="mt-16 grid lg:grid-cols-5 gap-10">
           <div className="lg:col-span-2 space-y-5">
             {[
-              { Icon: MapPin, t: "Atelier Address", v: "Shop No. 24, Tariq Road, Karachi, Pakistan" },
-              { Icon: Phone, t: "Call Us", v: "+92 300 1234567", href: "tel:+923001234567" },
+              { Icon: MapPin, t: "Atelier Address", v: "Plot 206 B, motiwala centre, Tariq Rd, near Madina Masjid, Block 2 P.E.C.H.S., Karachi" },
+              { Icon: Phone, t: "Call Us", v: "+92 346 2688258", href: "tel:+923462688258" },
               { Icon: MessageCircle, t: "WhatsApp", v: "Chat instantly", href: "https://wa.me/923001234567", cta: true },
-              { Icon: Mail, t: "Email", v: "atelier@tariqroadcouture.pk", href: "mailto:atelier@tariqroadcouture.pk" },
+              { Icon: Mail, t: "Email", v: "zubaircollection@gmail.com", href: "mailto:zubaircollection@gmail.com" },
             ].map(({ Icon, t, v, href, cta }) => (
               <a
                 key={t}
