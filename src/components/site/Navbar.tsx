@@ -29,7 +29,8 @@ export const Navbar = () => {
     >
       <div className="container flex items-center justify-between">
         <a href="#home" className="flex flex-col leading-none">
-          <img src="/assets/Logo.jpg" alt="Tariq Road Couture" className="h-10 w-auto" />
+          <span className="font-serif text-2xl text-gold tracking-wide">Tariq Road</span>
+          <span className="text-[10px] tracking-[0.3em] text-muted-foreground uppercase">Couture</span>
         </a>
 
         <nav className="hidden lg:flex items-center gap-10">
@@ -58,7 +59,7 @@ export const Navbar = () => {
               </a>
             ))}
             <a href="#contact" onClick={() => setOpen(false)} className="btn-gold px-6 py-3 text-xs uppercase tracking-[0.2em] text-center mt-2">
-              Book Fittingss
+              Book Fitting
             </a>
           </nav>
         </div>
