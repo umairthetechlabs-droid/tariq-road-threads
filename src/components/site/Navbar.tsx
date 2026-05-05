@@ -41,7 +41,7 @@ export const Navbar = () => {
         </nav>
 
         <a href="#contact" className="hidden lg:inline-flex btn-gold px-6 py-2.5 text-xs uppercase tracking-[0.2em] font-medium">
-          Book Fitting
+          Book Fittings
         </a>
 
         <button onClick={() => setOpen((v) => !v)} aria-label="Menu" className="lg:hidden text-primary">
