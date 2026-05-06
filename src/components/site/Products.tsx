@@ -2,7 +2,7 @@ import shalwar from "@/assets/shalwar-kameez.jpg";
 import sherwani from "@/assets/sherwani.jpg";
 import Omi from "@/assets/S1.jpg";
 import { ArrowUpRight } from "lucide-react";
-import sher1 from "@/assets/s2.jpg"
+import sher1 from "@/assets/s6.jpg"
 
 const products = [
   {
