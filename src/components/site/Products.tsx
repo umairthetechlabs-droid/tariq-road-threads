@@ -2,6 +2,7 @@ import shalwar from "@/assets/shalwar-kameez.jpg";
 import sherwani from "@/assets/sherwani.jpg";
 import Omi from "@/assets/S1.jpg";
 import { ArrowUpRight } from "lucide-react";
+import sher1 from "@/assets/s2.jpg"
 
 const products = [
   {
@@ -20,6 +21,13 @@ const products = [
   },
   {
     img: Omi,
+    title: "Groom Wedding Package",
+    desc: "Complete couture trousseau — lehenga, dupatta, jewelry styling and grooming essentials.",
+    price: "From PKR 50,000",
+    tag: "Groom",
+  },
+   {
+    img: sher1,
     title: "Groom Wedding Package",
     desc: "Complete couture trousseau — lehenga, dupatta, jewelry styling and grooming essentials.",
     price: "From PKR 50,000",
