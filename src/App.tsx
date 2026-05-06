@@ -17,7 +17,7 @@ const WhatsAppButton = () => {
       rel="noopener noreferrer"
       className="whatsapp-float"
     >
-      <img src={whatsappIcon} width="50" />
+      <img src={whatsappIcon} width="40" />
     </a>
   );
 };
